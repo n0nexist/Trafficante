@@ -33,6 +33,7 @@ def disable_forwarding():
     
 def checkroot():
     """ quits if we're not root """
+    
     if os.getuid() != 0:
         print(f"{colors.FAIL}run this script as root.{colors.RESET}")
         exit(-2)
