@@ -51,7 +51,14 @@ def args():
     """ returns system arguments """
     
     try:
-        return sys.argv[1], sys.argv[2], sys.argv[3]
+        return sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
     except:
-        print(f"{colors.FAIL}{sys.argv[0]}{colors.ITALIC} (target ip) (gateway ip) (file to inject){colors.RESET}")
+        print(f"{colors.FAIL}{sys.argv[0]}{colors.ITALIC} (target ip) (gateway ip) (attack) (file)")
+        print(f"""\n{colors.FAIL}attacks:{colors.ITALIC}
+js -> arbitrary javascript injection on http traffic
+dns -> dns spoofing
+mail -> email hijacking
+ssl -> ssl stripping attack              
+{colors.RESET}""")
         exit(-1)
+        

@@ -8,7 +8,7 @@ import re
 payload_file_content = ""
 
 def process_packet(packet):
-    """ scapy's packet handler """
+    """ processes captured packets """
     
     global payload_file_content
 
