@@ -1,4 +1,4 @@
-# Dns spoofing
+# [wiki]::DNS spoofing
 <ol>
   <li>Write this to a file:<br><code>{ "mydomain.it.": "192.168.1.113", "otherdomain.com.": "192.168.1.113" }</code></li>
   <li>Discover your target's ip and gateway ip: you can use <a href="https://github.com/n0nexist/subdisc">subdisc</a> for this task.</li>
