@@ -9,3 +9,6 @@
 # Screenshots
 ![image_2023-03-19_11-54-22](https://user-images.githubusercontent.com/111337838/226941864-318ca2c4-f83a-4c21-87d0-cb7ec23c79b4.png)<br>
 ![image_2023-03-19_12-16-20](https://user-images.githubusercontent.com/111337838/226941678-172533b6-20b6-4baf-a347-76c87950b968.png)
+
+#
+<h3>Next wiki page: <a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/custom-handlers.md">custom handlers</a></h3>
