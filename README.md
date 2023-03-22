@@ -18,5 +18,5 @@ sudo python3 main.py (target ip) (gateway ip) (attack type) my-payload.txt
 # Available attacks
 <b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/js-injection.md">arbitrary javascript injection</a></b> | <i>Injects ```javascript``` code into the target's ```http``` traffic</i><br>
 <b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/dns-spoofing.md">dns spoofing</a></b> | <i>Spoofs ```dns``` requests</i><br>
-<b>email hijacking (to do)</b> | <i>Changes target's ```emails``` content</i><br>
-<b>ssl stripping (to do)</b> | <i>Sniffs target's ```https``` traffic by forcing a ```downgrade```</i><br>
+<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/email-hijacking.md">email hijacking</a> (to do)</b> | <i>Changes target's ```emails``` content</i><br>
+<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/ssl-stripping.md">ssl stripping</a> (to do)</b> | <i>Sniffs target's ```https``` traffic by forcing a ```downgrade```</i><br>
