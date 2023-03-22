@@ -14,3 +14,6 @@ def my_handler(packet):
 
 # Screenshots
 ![screenshot](https://user-images.githubusercontent.com/111337838/227001598-4e395cd5-3a4e-4fa1-bff7-23dda29ed799.png)
+
+#
+<h3>Next wiki page: <a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/dns-spoofing.md">dns spoofing</a></h3>
