@@ -22,9 +22,9 @@
 <br>
 
 <h2>:computer: Requirements</h2>
-<b>1</b> -> <i>A ```linux``` computer with ```root``` permissions</i><br>
-<b>2</b> -> <i>Python3 with ```scapy``` and ```netfilterqueue``` packages</i><br>
-<b>3</b> -> <i>The package ```iptables``` installed on your linux distribution</i><br>
+<b>1</b> -> <i>A <code>linux</code> computer with <code>root</code> permissions</i><br>
+<b>2</b> -> <i>Python3 with <code>scapy</code> and <code>netfilterqueue</code> packages</i><br>
+<b>3</b> -> <i>The package <code>iptables</code> installed on your linux distribution</i><br>
 
 <h2>:arrow_down_small: Download & Usage</h2>
 
@@ -36,7 +36,7 @@ sudo python3 main.py (target ip) (gateway ip) (attack type) my-payload.txt
 ```
 
 <h2>:trident: Available attacks</h2>
-<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/js-injection.md">arbitrary javascript injection</a></b> | <i>Injects ```javascript``` code into the target's ```http``` traffic</i><br>
-<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/dns-spoofing.md">dns spoofing</a></b> | <i>Spoofs ```dns``` requests</i><br>
-<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/email-hijacking.md">email hijacking</a> (to do)</b> | <i>Changes target's ```emails``` content</i><br>
-<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/ssl-stripping.md">ssl stripping</a> (to do)</b> | <i>Sniffs target's ```https``` traffic by forcing a ```downgrade```</i><br>
+<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/js-injection.md">arbitrary javascript injection</a></b> | <i>Injects <code>javascript</code> code into the target's <code>http</code> traffic</i><br>
+<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/dns-spoofing.md">dns spoofing</a></b> | <i>Spoofs <code>dns</code> requests</i><br>
+<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/email-hijacking.md">email hijacking</a> (to do)</b> | <i>Changes target's <code>emails</code> content</i><br>
+<b><a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/ssl-stripping.md">ssl stripping</a> (to do)</b> | <i>Sniffs target's <code>https</code> traffic by forcing a <code>downgrade</code></i><br>
