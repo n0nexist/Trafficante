@@ -11,3 +11,5 @@
 ![screenshot](https://user-images.githubusercontent.com/111337838/226946833-8b4fb975-a062-4c31-a2d5-e6fcbb10e6cd.png)<br>
 ![screen2](https://user-images.githubusercontent.com/111337838/226946732-030af7ba-d669-4d48-8270-7fb38d50ea23.jpg)
  
+#
+<h3>Next wiki page: <a href="https://github.com/n0nexist/Trafficante/blob/main/wiki/js-injection.md">js injection</a></h3>
