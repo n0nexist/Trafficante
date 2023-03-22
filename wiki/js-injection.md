@@ -1,4 +1,4 @@
-# Javascript arbitrary injection
+# [wiki]::Javascript arbitrary injection
 <ol>
   <li>Write this to a file:<br><code><script>alert('this is my payload!');</script></code></li>
   <li>Discover your target's ip and gateway ip: you can use <a href="https://github.com/n0nexist/subdisc">subdisc</a> for this task.</li>
