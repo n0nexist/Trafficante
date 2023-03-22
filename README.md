@@ -1,5 +1,5 @@
 # Trafficante
-Inject arbitrary javascript in other's http traffic
+The man-in-the-middle toolkit
 
 # Requirements
 <b>1</b> -> <i>A ```linux``` computer with ```root``` permissions</i><br>
