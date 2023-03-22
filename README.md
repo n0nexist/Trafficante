@@ -1,7 +1,7 @@
 <p align="center">
  <img width="100px" src="https://github.com/n0nexist/Trafficante/blob/main/logo.png?raw=true" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">Trafficante</h2>
- <p align="center">the man-in-the-middle toolkit</p>
+ <p align="center">The man-in-the-middle toolkit</p>
 </p>
 
 <p align="center">
