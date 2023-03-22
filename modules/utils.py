@@ -43,9 +43,20 @@ def logo():
     
     print(f"""{colors.BOLD}{colors.BLUE}
 ___     _ _              
- | _ _ (_(_. _ _  _ |_ _ 
- || (_|| | |(_(_|| )|_(-    {colors.RESET}by {colors.ITALIC}{colors.GREEN}n0nexist.github.io{colors.RESET}
+ | _ _ (_(_. _ _  _ |_ _    {colors.RESET}v1.2{colors.BLUE}{colors.BOLD}
+ || (_|| | |(_(_|| )|_(-    {colors.RESET}by {colors.ITALIC}{colors.GREEN}{colors.UNDERLINE}n0nexist.github.io{colors.RESET}
 """)
+    
+def showhelp():
+    """ shows help menu and exits """
+    
+    print(f"{colors.FAIL}{sys.argv[0]}{colors.ITALIC} (target ip) (gateway ip) (attack) (file)")
+    print(f"""\n{colors.FAIL}attacks:{colors.ITALIC}
+js -> arbitrary javascript injection on http traffic
+dns -> dns spoofing
+custom -> custom handler      
+{colors.RESET}""")
+    exit(-1)
     
 def args():
     """ returns system arguments """
@@ -53,12 +64,5 @@ def args():
     try:
         return sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
     except:
-        print(f"{colors.FAIL}{sys.argv[0]}{colors.ITALIC} (target ip) (gateway ip) (attack) (file)")
-        print(f"""\n{colors.FAIL}attacks:{colors.ITALIC}
-js -> arbitrary javascript injection on http traffic
-dns -> dns spoofing
-mail -> email hijacking
-ssl -> ssl stripping attack              
-{colors.RESET}""")
-        exit(-1)
+        showhelp()
         

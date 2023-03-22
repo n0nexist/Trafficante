@@ -55,11 +55,13 @@ def start_injecting(pl_file):
     
     global payload_file_content
     
+    print(f"{utils.colors.GREEN}*{utils.colors.ITALIC} starting javascript injection attack{utils.colors.RESET}")
+    
     try:
         f = open(pl_file,"r")
         content = f.read()
         payload_file_content = content
-        print(f"{utils.colors.GREEN}*{utils.colors.ITALIC} read {len(content)} bytes from {pl_file}{utils.colors.RESET}")    
+        print(f"{utils.colors.GREEN}*{utils.colors.ITALIC} read {utils.colors.WARNING}{len(content)}{utils.colors.RESET}{utils.colors.GREEN}{utils.colors.ITALIC} bytes from {pl_file}{utils.colors.RESET}")
         f.close()
     except Exception as e:
         print(f"{utils.colors.FAIL}!{utils.colors.ITALIC} {e}{utils.colors.RESET}")

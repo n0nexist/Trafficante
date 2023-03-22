@@ -44,14 +44,20 @@ def load_targetlist(filename):
     global dns_hosts
     with open(filename, 'r') as f:
         content = json.load(f)
-    print(f"{utils.colors.GREEN}*{utils.colors.ITALIC} loading {len(content.items())} targets from {filename}{utils.colors.RESET}")
+    print(f"{utils.colors.GREEN}*{utils.colors.ITALIC} loading {utils.colors.WARNING}{len(content.items())}{utils.colors.RESET}{utils.colors.GREEN}{utils.colors.ITALIC} targets from {filename}{utils.colors.RESET}")
     dns_hosts = {k.encode('utf-8'): v for k, v in content.items()}
     
 
 def start_spoofing(recordsfile):
     """ starts spoofing dns reponses """
     
-    load_targetlist(recordsfile)
-    queue = NetfilterQueue()
-    queue.bind(0, process_packet)
-    queue.run()
+    try:
+        print(f"{utils.colors.GREEN}*{utils.colors.ITALIC} starting dns spoofing attack{utils.colors.RESET}")
+        load_targetlist(recordsfile)
+        queue = NetfilterQueue()
+        queue.bind(0, process_packet)
+        queue.run()
+    except Exception as e:
+        print(f"{utils.colors.FAIL}!{utils.colors.ITALIC} {e}{utils.colors.RESET}")
+        pass  
+        
