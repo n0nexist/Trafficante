@@ -43,7 +43,7 @@ def logo():
     
     print(f"""{colors.BOLD}{colors.BLUE}
 ___     _ _              
- | _ _ (_(_. _ _  _ |_ _    {colors.RESET}v1.2{colors.BLUE}{colors.BOLD}
+ | _ _ (_(_. _ _  _ |_ _    {colors.RESET}v1.2.1{colors.BLUE}{colors.BOLD}
  || (_|| | |(_(_|| )|_(-    {colors.RESET}by {colors.ITALIC}{colors.GREEN}{colors.UNDERLINE}n0nexist.github.io{colors.RESET}
 """)
     
